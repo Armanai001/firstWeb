@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+
+
+<style>
+    .first {
+        color: green;
+        display: inline-block;
+        width: 435px;
+        margin-left: 30%;
+        padding: 38px;
+        font: 33px bold yellow;
+        border: 3px solid red;
+        background-color: pink;
+        font-size: 24px;
+    }
+
+    .sub {
+        display: inline-block;
+        padding: auto;
+        margin-left: 175px;
+        font: 35px bold black;
+        margin-top: 45px;
+        background-color: cyan;
+    }
+
+    .sub:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .input {
+
+        font: 24px bold red;
+        color: red;
+    }
+
+    body {
+        background-image: url(/firstWeb1.PNG);
+        background-image: url(/firstWeb1.PNG);
+        color: white;
+    }
+
+    #logo {
+        border: 3px solid black;
+        position: fixed;
+        margin-top: -43px;
+        margin-left: 50%;
+        background-image: url(/firstWebLOGO.png);
+        background-repeat: no-repeat;
+        height: 37px;
+        width: 60px;
+
+
+    }
+
+    #navigation {
+        background-color: cyan;
+        border: 4px solid green;
+        border-radius: 44px;
+        font: 20px solid;
+        margin-top: 43px;
+
+    }
+
+    #unorderd {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .lists {
+        display: inline-block;
+        padding-left: 33px;
+    }
+
+    #sign {
+        text-align: center;
+    }
+
+    button {
+        border-radius: 4px;
+    }
+</style>
+
+
+
+<body>
+    <header id="logo">
+        <img src="/firstWebLOGO.png" alt="">
+    </header>
+    <nav id="navigation">
+        <ul id="unorderd">
+            <li class="lists"><a href="index.html">Home</a></li>
+            <li class="lists"><a href="softwares.html">Softwares</a></li>
+            <li class="lists"><a href="/os.html">OS</a> </li>
+            <li class="lists"><a href="documents.html">Documents</a></li>
+            <li class="lists"><a href="/about.html">About</a></li>
+            <li class="lists"><a href="/contect us.html">Contect us</a></li>
+            <li class="lists"> <a href="/Login.html">Login</a> </li>
+            <li class="lists"><a href="/sign up.html">Sign up</a></li>
+        </ul>
+    </nav>
+    <h3>Welcome in 127.0.0.1.5500</h3>
+    <div class="first">
+        <h2 id="sign">Sign up</h2>
+        <p>Enter your name</p>
+        <input type="text" name="name" class="input">
+        <p>Enter your Email address</p>
+        <input type="email" name="Email" class="input">
+        <p>Enter your password</p>
+        <input type="text" name="password" class="input"><br>
+        <button class="sub">Submit</button>
+    </div>
+</body>
+
+</html>

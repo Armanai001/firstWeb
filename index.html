@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first website</title>
+</head>
+
+<style>
+    body {
+
+        background-color: yellow;
+        height: 1000px;
+    }
+
+    #logo {
+        border: 3px solid black;
+        position: fixed;
+        margin-top: -43px;
+        margin-left: 50%;
+        background-image: url(/firstWebLOGO.png);
+        background-repeat: no-repeat;
+        height: 37px;
+        width: 60px;
+    }
+
+    #navigation {
+        background-color: cyan;
+        border: 4px solid green;
+        border-radius: 14px;
+        font: 20px solid;
+        margin-top: 43px;
+    }
+
+    #unorderd {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .lists {
+        display: inline-block;
+        padding-left: 33px;
+    }
+
+    .serch {
+        border: 5px solid brown;
+        margin-top: 77px;
+        font-size: 86px;
+        border-radius: 55px;
+        text-align: center;
+        background-color: rgb(39, 219, 84);
+    }
+
+    @media (min-width: 608px) {
+        .serch {
+            display: block;
+        }
+    }
+
+    @media (max-width:608px) {
+        .serch {
+            display: inline-block;
+        }
+    }
+
+    @media (min-width:927px) {
+        #navigation {
+            display: block;
+        }
+    }
+
+    @media (max-width:860px) {
+        #navigation {
+            display: inline-block;
+        }
+    }
+
+    .sites {
+        border: 5px solid pink;
+        margin-left: 155px;
+        margin-right: 155px;
+        border-radius: 199px;
+        background-color: blue;
+    }
+
+    .a {
+        color: red;
+    }
+
+    .a:hover {
+        color: cyan;
+    }
+
+    .developerimage {
+        background-color: rgb(70, 225, 65);
+        border: 5px solid rgb(70, 225, 65);
+        float: right;
+        border-radius: 22px;
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+</style>
+
+<body>
+    <header id="logo">
+    </header>
+    <nav id="navigation">
+        <ul id="unorderd">
+            <li class="lists"><a href="index.html">Home</a></li>
+            <li class="lists"><a href="softwares.html">Softwares</a></li>
+            <li class="lists"><a href="os.html">OS</a> </li>
+            <li class="lists"><a href="documents.html">Documents</a></li>
+            <li class="lists"><a href="about.html">About</a></li>
+            <li class="lists"><a href="contect us.html">Contect us</a></li>
+            <li class="lists"> <a href="Login.html">Login</a> </li>
+            <li class="lists"><a href="sign up.html">Sign up</a></li>
+        </ul>
+    </nav>
+    <div class="serch">
+        <p class="sites"><a class="a" href="https:/www.google.com" target="_blank">Google</a></p>
+        <p class="sites"><a class="a" href="https:/www.yahoo.com" target="_blank">Yahoo</a></p>
+        <p class="sites"><a class="a" href="https:/www.answer.com" target="_blank">Answer</a></p>
+        <p class="sites"><a class="a" href="https:/www.bing.com" target="_blank">Bing</a></p>
+    </div>
+    <div><a class="developerimage" href="/firstWebArman.png" target="_blank">Developer Image</a></div>
+</body>
+
+</html>
